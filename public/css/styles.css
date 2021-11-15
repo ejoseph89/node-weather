@@ -1,0 +1,115 @@
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+
+footer {
+  color: #888;
+  border-top: 1px solid #eee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a{
+  color: #888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #555;
+}
+
+figure {
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+figure p {
+  text-align: center;
+}
+
+.portrait {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: 1px solid #ddd;
+}
+
+
+button {
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+
+button:active {
+  background: #999;
+}
+
+/* 
+h1, 
+h2, 
+h3,
+h4,
+p {
+  text-align: center;
+}
+
+h1,
+h2 {
+  padding: 50px;
+  color: purple;
+}
+
+img {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.nav {
+  text-align: center;
+  margin: 20px;
+}
+
+.nav a {
+  padding-right: 15px;
+} */

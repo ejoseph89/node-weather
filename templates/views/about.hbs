@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/cloud-sun-rain-solid.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Weather App - {{ title }}</title>
+</head>
+<body>
+  <div class="main-content">
+    {{>header}}
+
+    <figure>
+      <img class="portrait" src="./img/profile-img.jpg" alt="">
+      <figcaption><p>{{ name }}</p></figcaption>
+    </figure>
+  </div>
+
+  {{>footer}}
+</body>
+</html>

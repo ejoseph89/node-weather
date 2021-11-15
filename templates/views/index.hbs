@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/cloud-sun-rain-solid.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="./js/app.js" defer></script>
+  <title>Weather App - {{ title }}</title>
+</head>
+<body>
+  <div class="main-content">
+    {{>header}}
+    <p>Get weather based on your address</p>
+
+    <form action="">
+      <input id="locationInput" type="text" placeholder="Location">
+      <button id="inputButton">Search</button>
+    </form>
+
+      <p id="message-1"></p>
+      <p id="message-2"></p>
+    </div>
+
+  </div>
+
+
+  {{>footer}}
+
+</body>
+</html>
