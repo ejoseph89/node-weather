@@ -9,6 +9,7 @@ const hbs = require('hbs')
 
 
 const app = express()
+const port = process.env.PORT || 3000
 
 
 
@@ -116,7 +117,7 @@ app.get('*', (req, res) => {
 })
 
 
-// Listening on port 3000
-app.listen(3000, () => {
-  console.log('Listening on 3000')
+// Listening on port 3000 locally
+app.listen(port, () => {
+  console.log(`Listening on ${port}` )
 })
